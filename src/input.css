@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    
+    .header{
+        @apply bg-light p-[1rem]; 
+    }
+
+    .header h1{
+        @apply text-[2.5rem] font-bold text-center text-dark;
+    }
+
+    .watch{
+        @apply bg-dark flex flex-col gap-[2rem] justify-center items-center py-[8rem];
+    }
+
+    #timeContainer{
+        @apply bg-dark py-[5rem] px-[3.2rem] rounded-full border-solid border-[8px] border-primary;
+    }
+
+    #timeDisplay{
+        @apply text-[1.5rem] font-bold text-primary;
+    }
+
+    .up{
+        @apply flex gap-[1.5rem] justify-center items-center mt-[2rem];
+    }
+
+    .timerBtn1{
+        @apply bg-light py-[1rem] px-[1.4rem] rounded-full font-bold;
+    }
+
+    .timerBtn1:hover{
+        @apply bg-[#ff0000] text-light;
+    }
+
+
+    .timerBtn1 i{
+        @apply text-[1.1rem] mr-[.5rem];
+    }
+
+    #pauseBtn{
+        @apply bg-light py-[1rem] px-[1.5rem] rounded-full;
+    }
+
+    #pauseBtn:hover{
+        @apply bg-[#ff0000] text-light;
+    }
+
+    #resetBtn{
+        @apply bg-light py-[1rem] px-[1.3rem] rounded-full;
+    }
+
+    #resetBtn:hover{
+        @apply bg-[#ff0000] text-light;
+    }
+
+    .timerBtn2 i{
+        @apply text-[1.1rem]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
